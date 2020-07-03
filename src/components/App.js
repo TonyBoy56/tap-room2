@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <React.Fragment>
-        <h1>The Tap Room</h1>
+        <Header />
         <p><em>Firebase entries not saving!</em></p>
         <hr/>
       </React.Fragment>
