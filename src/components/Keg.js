@@ -9,8 +9,8 @@ function Keg(props) {
         <h5>{props.price}</h5>
         <h5>{props.abv}</h5>
         <h5>{props.wholeKeg} pints</h5>
-      </div>
       <hr/>
+      </div>
     </React.Fragment>
   );
 }
