@@ -1,4 +1,7 @@
 import React from "react";
+import Header from "./Header";
+import KegList from "./KegList";
+
 import './App.css';
 
 function App() {
@@ -6,8 +9,7 @@ function App() {
     <div className="App">
       <React.Fragment>
         <Header />
-        <p><em>Firebase entries not saving!</em></p>
-        <hr/>
+        <KegList />
       </React.Fragment>
     </div>
   );
