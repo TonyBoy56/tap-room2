@@ -1,31 +1,124 @@
-<mxfile host="" modified="2020-07-03T01:56:24.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.46.0 Chrome/78.0.3904.130 Electron/7.3.1 Safari/537.36" etag="CCsIXUvOZC9nIpdrfXFz" version="13.1.3">
-    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="1208" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="135" width="370" height="315" as="geometry"/>
-                </mxCell>
-                <mxCell id="4" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Header&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="60" width="370" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;The Keg List&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="375" y="140" width="100" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="8" value="A Keg&lt;br&gt;Click on a keg to show a particular keg's details." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="260" y="200" width="330" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="Another Keg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="260" y="290" width="330" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="11" value="Another Keg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="260" y="370" width="330" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" value="Add a new Keg.&lt;br&gt;Click here and a form will allow the addition of a new keg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="470" width="370" height="50" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-</mxfile>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="371px" height="461px" viewBox="-0.5 -0.5 371 461" content="&lt;mxfile host=&quot;&quot; modified=&quot;2020-07-03T02:05:40.949Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.46.0 Chrome/78.0.3904.130 Electron/7.3.1 Safari/537.36&quot; etag=&quot;laCyhd_cB59TetuUgLWb&quot; version=&quot;13.1.3&quot;&gt;&lt;diagram id=&quot;6hGFLwfOUW9BJ-s0fimq&quot; name=&quot;Page-1&quot;&gt;1Zffk5owEMf/GqZPvSEElT6qd+3NtH2yM33OkQgZA6EhFO1f3w1JRA6cOtX27h7U8N3Nj/1sssEAr4v9J0Wq/KukTARRSPcBvg+iCEVhAj9GOVhllsRWyBSnzqkXNvwXc2Lo1IZTVg8ctZRC82ooprIsWaoHGlFKtkO3rRTDWSuSsZGwSYkYq9851blVk2jR64+MZ7mfGc0/WEtBvLOLpM4Jle2JhB8CvFZSatsq9msmDDzPxfb7eMZ6XJhipb6oA7Y9fhLRuODcwvTBR5sp2VTOjSnN9lOMyZN3D8drQMfIYEswWTCtDuDiBopi18Xthrl7bHu0eOG0/ARr7B2JS2d2HLqPGBou6GkAF8QP4ZeUGf8wwKs255ptKpIaawv7G7RcFzD+PYIm5QpocFnCcy0bE8BqAgg+w3MMyUFZzC6DgtHseijxBJS5gBlWWwkhnNKZ/2ikN7yvu5O6BIcorva9EVqZ+X1khDLlx4JV2OGs8TruVzH+E9RbbLT51UxRMsX0W87A9pll8P2F1/pSusBEDxHWWskdW0shFSilLJlZAxfimUQEz8z2TgE1ZBOvDGEO1XHpDAWn1EwzmbNhVq9Km7fi2aB+JOP6gcKJrM5ukNVklNWlz4ZNw5PyGVgLnu7ACKUB5oTPrsuZlt01AJeAVYEFwGwEUdblXW0uSqYJF/XdC54RX6yHtRrFE8Ua/6Mj5K//U9ql1LkpKZb5K6MT4Qvp3GIrIvTG6GD0P+lEYzqUujNXstYyujt/bIGjKbSk9J22UhXd4rt5iBDdEdZdOSaU8u4lAI77djDJ7kUT4cjHU+SnLr6/IA+P/etrZzv5E4AffgM=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="27.5" y="47.5" width="315" height="370" fill="#ffffff" stroke="#000000" transform="rotate(90,185,232.5)" pointer-events="all"/>
+        <rect x="0" y="0" width="370" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 368px; height: 1px; padding-top: 30px; margin-left: 1px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font style="font-size: 24px">
+                                    Header
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="185" y="34" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Header
+                </text>
+            </switch>
+        </g>
+        <rect x="135" y="80" width="100" height="50" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 98px; height: 1px; padding-top: 105px; margin-left: 136px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font style="font-size: 18px">
+                                    The Keg List
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="185" y="109" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    The Keg List
+                </text>
+            </switch>
+        </g>
+        <rect x="20" y="140" width="330" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 328px; height: 1px; padding-top: 170px; margin-left: 21px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                A Keg
+                                <br/>
+                                Click on a keg to show a particular keg's details.
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="185" y="174" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    A Keg...
+                </text>
+            </switch>
+        </g>
+        <rect x="20" y="230" width="330" height="50" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 328px; height: 1px; padding-top: 255px; margin-left: 21px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Another Keg
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="185" y="259" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Another Keg
+                </text>
+            </switch>
+        </g>
+        <rect x="20" y="310" width="330" height="50" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 328px; height: 1px; padding-top: 335px; margin-left: 21px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Another Keg
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="185" y="339" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Another Keg
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="410" width="370" height="50" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 368px; height: 1px; padding-top: 435px; margin-left: 1px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Add a new Keg.
+                                <br/>
+                                Click here and a form will allow the addition of a new keg
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="185" y="439" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Add a new Keg....
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
