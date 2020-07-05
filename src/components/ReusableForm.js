@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function ReusableForm(props) {
   return (
     <React.Fragment>
-      <form onSubmit = {props.handleNewKegFormSubmission}>
+      <form onSubmit = {props.formSubmissionHandler}>
         <input  
           type = 'text'
           name = 'name' 
@@ -30,6 +30,6 @@ function ReusableForm(props) {
 ReusableForm.propTypes = {
   formSubmissionHandler: PropTypes.func,
   buttonText: PropTypes.string
-}
+};
 
 export default ReusableForm;

@@ -11,6 +11,7 @@ class KegControl extends React.Component {
       formVisibleOnPage: false,
       masterKegList: [],
       selectedKegList: [],
+      selectedKeg: null,
       quantity: 124
     };
   }
@@ -21,14 +22,9 @@ class KegControl extends React.Component {
         formVisibleOnPage: false,
         selectedKeg: null
       });
-    } else if (this.state.counter === 0) {
-      this.setState(prevState => ({
-        counter: prevState.counter + 1
-      }));
     } else {
       this.setState(prevState => ({
         formVisibleOnPage: !prevState.formVisibleOnPage,
-        counter: 0
       }));
     }
   }
@@ -43,7 +39,6 @@ class KegControl extends React.Component {
     this.setState({
       masterKegList: newMasterKegList,
       formVisibleOnPage: false,
-      counter: 0
     });
   }
 

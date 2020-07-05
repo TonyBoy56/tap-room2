@@ -5,13 +5,11 @@ import KegControl from "./KegControl"
 
 function App() {
   return (
-    <div className="App">
-      <React.Fragment>
-        <Header />
-        <KegControl />
-        {/* <KegList /> */}
-      </React.Fragment>
-    </div>
+    <React.Fragment>
+      <Header />
+      <KegControl />
+      {/* <KegList /> */}
+    </React.Fragment>
   );
 }
 
