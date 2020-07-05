@@ -12,9 +12,9 @@ function NewKegForm(props) {
       brand: event.target.brand.value,
       price: event.target.price.value,
       abv: event.target.abv.value,
-      wholeKeg: event.target.fullKeg.value,
+      wholeKeg: event.target.wholeKeg.value,
       id: v4()
-    });
+    })
   }
 
   return (
@@ -24,18 +24,22 @@ function NewKegForm(props) {
           type = 'text'
           name = 'name' 
           placeholder = 'Beer name' />
+          <br></br>
         <input
           type = 'text'
           name = 'price'
           placeholder = 'Price' />
+          <br></br>
         <input 
           type = 'text'
           name = 'abv'
           placeholder = 'ABV' />
+          <br></br>
         <input
           type = 'text'
           name = 'wholeKeg'
           placeholder = 'Keg volume' />
+          <br></br>
         <button type = 'submit'>Add new Keg</button>
       </form>
     </React.Fragment>
