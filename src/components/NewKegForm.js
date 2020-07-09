@@ -2,6 +2,7 @@ import React from "react";
 import { v4 } from "uuid";
 import PropTypes from "prop-types";
 
+
 function NewKegForm(props) {
   
   function handleNewKegFormSubmission(event) {
@@ -24,6 +25,10 @@ function NewKegForm(props) {
           type = 'text'
           name = 'name' 
           placeholder = 'Beer name' />
+        <input  
+          type = 'text'
+          name = 'brand' 
+          placeholder = 'Beer brand' />
           <br></br>
         <input
           type = 'text'
