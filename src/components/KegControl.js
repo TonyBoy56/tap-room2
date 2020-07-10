@@ -42,12 +42,28 @@ class KegControl extends React.Component {
     });
   }
 
+  handleSaleOfPint = (id) => {
+    const newKegSelection = this.state.masterKegList.filter((keg) => keg.id == id)[0];
+    if(newKegSelection.quantity === 0) {
+      alert("No more juice man! Try a different keg.")
+    } else {
+      const decrementPint = newKegSelection.quantity -1;
+      const sellPint = {...newKegSelection, quantity: decrementPint}
+      const soldPint = this.state.masterKegList.filter((keg) => keg.id !== id);
+      this.setState({
+        masterKegList: [...soldPint, sellPint],
+        selectedKeg: sellPint
+      })
+    }
+  }
+
   render() {
     let currentlyVisibleState = null;
     let buttonText = null;
     if (this.state.selectedKeg != null) {
       currentlyVisibleState = <KegDetail 
-        keg = {this.state.selectedKeg} />;
+        keg = {this.state.selectedKeg} 
+        uponSale = {this.handleSaleOfPint} />;
       buttonText = "Return to Keg List";
     } else if (this.state.formVisibleOnPage) {
       currentlyVisibleState = <NewKegForm 
