@@ -43,7 +43,8 @@ function NewKegForm(props) {
         <input
           type = 'text'
           name = 'quantity'
-          placeholder = 'Keg volume' />
+          placeholder = 'Keg volume' 
+          value = "124" />
           <br></br>
         <button type = 'submit'>Add new Keg</button>
       </form>
