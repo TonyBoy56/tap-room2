@@ -19,6 +19,7 @@ describe ('kegListReducer', () => {
   test('should successfully add new keg data to masterKegList', () => {
     const { name, brand, price, abv, quantity, id } = kegData;
     action = {
+      type: 'ADD_KEG',
       name: name,
       brand: brand, 
       price: price,
