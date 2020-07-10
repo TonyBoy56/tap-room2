@@ -1,4 +1,5 @@
 import React from "react";
+import { connect } from 'react-redux';
 import NewKegForm from "./NewKegForm";
 import KegList from "./KegList";
 import KegDetail from "./KegDetail";
@@ -84,4 +85,5 @@ class KegControl extends React.Component {
   }
 }
 
+KegControl = connect()(KegControl);
 export default KegControl;
