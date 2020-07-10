@@ -30,7 +30,7 @@ class KegControl extends React.Component {
   }
 
   handleChangingSelectedKeg = (id) => {
-    const selectedKeg = this.state.masterKegList.filter(keg => keg.id === id)[0];
+    const selectedKeg = this.props.masterKegList[id];
     this.setState({selectedKeg: selectedKeg});
   }
 
@@ -93,4 +93,6 @@ class KegControl extends React.Component {
 }
 
 KegControl = connect()(KegControl);
+
+const mapStateToProps
 export default KegControl;
