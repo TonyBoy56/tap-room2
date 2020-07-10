@@ -1,4 +1,4 @@
-# The Tap Room
+# The Tap Room With Redux!
 
 ## Description
 ### _This is a react app that allows a user to create new kegs of beer and pour per pint. The user should also be able to see how much beer is left in the keg after their pour._
