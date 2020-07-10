@@ -1,12 +1,14 @@
 import kegListReducer from '../../reducers/keg-list-reducer';
 
 describe ('kegListReducer', () => {
+  
+  let action;
 
   const currentState = {
     1: {
       name: 'Fat Tire',
       brand: 'New Belgium',
-      price: '239.99',
+      price: '164.99',
       abv: '7.0',
       quantity: '124',
       id: 1
@@ -15,13 +17,12 @@ describe ('kegListReducer', () => {
       name: 'Voodoo Ranger IPA',
       brand: 'New Belgium',
       price: '239.99',
-      abv: '7.0',
+      abv: '5.2',
       quantity: '124',
       id: 1
     }
   }
 
-  let action;
   const kegData = {
     name: 'Voodoo Ranger IPA',
     brand: 'New Belgium',
