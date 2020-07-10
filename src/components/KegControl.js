@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from 'react-redux';
+import PropTypes from "prop-types";
 import NewKegForm from "./NewKegForm";
 import KegList from "./KegList";
 import KegDetail from "./KegDetail";
@@ -92,7 +93,16 @@ class KegControl extends React.Component {
   }
 }
 
-KegControl = connect()(KegControl);
+KegControl.propTypes = {
+  masterKegList: PropTypes.object
+};
 
-const mapStateToProps
+const mapStateToProps = state => {
+  return {
+    masterKegList: state.masterKegList,
+    formVisibleOnPage: state.formVisibleOnPage
+  }
+}
+
+KegControl = connect(mapStateToProps)(KegControl);
 export default KegControl;
