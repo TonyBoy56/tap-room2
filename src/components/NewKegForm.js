@@ -13,7 +13,7 @@ function NewKegForm(props) {
       brand: event.target.brand.value,
       price: event.target.price.value,
       abv: event.target.abv.value,
-      wholeKeg: event.target.wholeKeg.value,
+      quantity: event.target.quantity.value,
       id: v4()
     })
   }
@@ -42,7 +42,7 @@ function NewKegForm(props) {
           <br></br>
         <input
           type = 'text'
-          name = 'wholeKeg'
+          name = 'quantity'
           placeholder = 'Keg volume' />
           <br></br>
         <button type = 'submit'>Add new Keg</button>
