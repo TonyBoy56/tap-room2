@@ -13,24 +13,24 @@
 
 ## Installation Instructions
 
-1. Visit this link https://github.com/assassin56/react_week2_TapRoom
+1. Visit this link https://github.com/assassin56/tap-room2
  
 2. Clone this repo by selecting the "clone or download" button. This will allow you to copy the repo's link.
 
 3. While on the command line in your terminal, enter "git clone" followed by the copied url.
 
-4. Enter "ls" to show a list of files and documents. One of them will be labeled "react_week2_TapRoom. Use "cd" followed by the project directory name to navigate there.
+4. Enter "ls" to show a list of files and documents. One of them will be labeled "tap-room2". Use "cd" followed by the project directory name to navigate there.
 
 5. While in project directory, run the command "npm install"
 
-6. While in project directory, run the command "npm run build"
+6. While in project directory, run "npm run build"
 
-7. While in project directory, run the command "npm start"
+7. While in project directory, run "npm start"
 
 8. Type in your browser the url "localhost:3000" to access the page, or the page should load upon running the previous command.
 
 ## Known Bugs
-* _The .map method in KegList.js is currently reading undefined properties, causing rendering errors._
+* _N/A_
 
 ## Technologies Used
 
